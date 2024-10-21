@@ -1,0 +1,4 @@
+Clear(ColNewSQLReturn);
+ClearCollect(ColNewSQLReturn, AdventureWorksLT2022.dboPopulateTempCustomer({CustomerID:ddlCustomerID.SelectedText.CustomerID,LastName:txtLastName.Text}));
+Reset(ddlCustomerID);
+Reset(txtLastName)
